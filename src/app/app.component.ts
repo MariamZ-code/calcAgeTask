@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'calcAge';
+  ageInp:number=0;
+  urAge:number =0;
+
+  calcAge() {
+    this.urAge =2021  - this.ageInp ;
+  }
+  
 }
